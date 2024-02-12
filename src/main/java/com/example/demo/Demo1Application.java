@@ -24,6 +24,7 @@ public class Demo1Application {
                 System.out.print("5. Exit\n\n");
                 System.out.print("Enter Your Choice : ");
                 choice = scan.next().charAt(0);
+
                 switch(choice)
                 {
                     case '1' : System.out.print("Enter Two Number : ");
